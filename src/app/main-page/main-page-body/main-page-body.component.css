@@ -1,0 +1,64 @@
+.mainPage-body {
+    color: white;
+    position: relative;
+    background-image: url(https://i.kinja-img.com/gawker-media/image/upload/pj0oloz7lu2fmew2domw.jpg), url(https://img.asmedia.epimg.net/resizer/v2/6Z63SULBX5MNBIE2JAIXJX2EWM.jpg?auth=7f9751c46ab23a5eedc92e61c6ef8188db1d57afba44da771424d859b3d983cf&width=1288&height=725&smart=true);
+    background-repeat: no-repeat, no-repeat;
+    padding-top: 17%;
+}
+
+#mainPage-body-wellcomeMessage{
+    position: relative;
+    width: 60%;
+    left: 20%;
+    text-align: center;
+    background-color: rgba(68, 68, 68, 0.497);
+    margin-bottom: 17%;
+    font-size: 40px;
+}
+
+.mainPage-body-contentInformation {
+    position: relative;
+    width: 75%;
+    left: 10.5%;
+    background-color: rgba(68, 68, 68, 0.75);
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+}
+
+.mainPage-body-contentInformation-subtitle {
+    border-bottom: 2px solid gold;
+    font-size: 38px;
+    margin-top: 3%;
+}
+
+#mainPage-body-contentInformation-img1 {
+    width: 30%;
+    float: right;
+    margin: 5px;
+}
+
+#mainPage-body-contentInformation-img2 {
+    width: 40%;
+    margin: 5px;
+    float: left;
+}
+
+#mainPage-body-contentInformation-img3 {
+    width: 30%;
+    margin: 5px;
+    float: right;
+}
+
+#mainPage-body-contentInformation-img4 {
+    width: 30%;
+    margin: 5px;
+    float: left;
+}
+
+#mainPage-body-contentInformation-img5 {
+    width: 50%;
+    margin: 5px;
+    float: right;
+}
