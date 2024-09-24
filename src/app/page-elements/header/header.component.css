@@ -24,9 +24,17 @@
 
 .header-navbar a {
     text-decoration: none;
+    padding: 10px 20px;
+    background-color: rgb(82, 73, 73);
+    border-radius: 5px;
     color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
-
+.header-navbar a:hover {
+    transform: scale(1.1);
+    background-color: rgb(100, 90, 90);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
 #header-icon_user-icon {
     border-radius: 280px;
     background-color: white;

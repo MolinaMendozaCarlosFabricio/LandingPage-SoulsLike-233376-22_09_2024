@@ -1,14 +1,14 @@
-.gamesPage-body {
+.gameplaysPage-body {
     width: 100%;
     color: white;
     position: relative;
-    background-image: url("../../../../public/assets/img/ED_dlc.jpg");
+    background-image: url("../../../../public/assets/img/DSRPortada.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     font-family: "Mate", system-ui;
 }
 
-.gamesPage-body-contentInformation {
+.gameplaysPage-body-contentInformation {
     position: relative;
     width: 75%;
     left: 10.5%;
@@ -19,21 +19,8 @@
     padding-right: 2%;
 }
 
-.gamesPage-body-contentInformation-subtitle {
+.gameplaysPage-body-contentInformation-subtitle {
     border-bottom: 2px solid gold;
     font-size: 38px;
     margin-top: 3%;
-}
-
-.gamesPage-body-contentInformation-img {
-    margin: 10px;
-    width: 60%;
-}
-
-.img-left {
-    float: left;
-}
-
-.img-right {
-    float: right;
 }
