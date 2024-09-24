@@ -2,4 +2,23 @@
     position: relative;
     background-color: rgb(72, 44, 97);
     color: white;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+    overflow: hidden;
+    height: 10vh;
+}
+
+.footer-line_content {
+    transform: rotate(-45deg);
+    width: 40%;
+    position: relative;
+    left: 75%;
+}
+
+.footer-orange_line {
+    background-color: rgb(172, 89, 0 );
+    width: 100%;
+    height: 10px;
+    margin-bottom: 10px;
 }

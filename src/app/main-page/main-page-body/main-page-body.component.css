@@ -1,9 +1,47 @@
 .mainPage-body {
+    width: 100%;
     color: white;
     position: relative;
-    background-image: url(https://i.kinja-img.com/gawker-media/image/upload/pj0oloz7lu2fmew2domw.jpg), url(https://img.asmedia.epimg.net/resizer/v2/6Z63SULBX5MNBIE2JAIXJX2EWM.jpg?auth=7f9751c46ab23a5eedc92e61c6ef8188db1d57afba44da771424d859b3d983cf&width=1288&height=725&smart=true);
-    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding-top: 17%;
+    font-family: "Mate", system-ui;
+}
+
+.mainPage-body-backgroundImage{
+    width: 100%;
+    height: 20%;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    position: absolute;
+    z-index: 0;
+}
+
+.bkg-img1 {
+    background-image: url("./../../../../public/assets/img/ds3Portada.jpg");
+    top: 0;
+}
+
+.bkg-img2 {
+    background-image: url("./../../../../public/assets/img/ERPortada.jpg");
+    top: 20%;
+}
+
+.bkg-img3 {
+    background-image: url("./../../../../public/assets/img/DemonsSoulsPS5.jpg");
+    top: 40%;
+}
+
+.bkg-img4 {
+    background-image: url("../../../../public/assets/img/irityllDs3.jpg");
+    top: 60%;
+}
+
+.bkg-img5 {
+    background-image: url("./../../../../public/assets/img/endDs3.jpg");
+    top: 80%;
 }
 
 #mainPage-body-wellcomeMessage{
@@ -20,7 +58,7 @@
     position: relative;
     width: 75%;
     left: 10.5%;
-    background-color: rgba(68, 68, 68, 0.75);
+    background-color: rgba(68, 68, 68, 0.85);
     padding-left: 2%;
     padding-top: 2%;
     padding-bottom: 2%;

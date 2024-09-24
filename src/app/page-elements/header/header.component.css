@@ -2,4 +2,30 @@
     position: relative;
     background-color: rgb(82, 73, 73 );
     color: white;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.header-titlePage {
+    font-family: "Mate", system-ui;
+}
+
+.header-titlePage h1 {
+    font-size: 300%;
+}
+
+.header-navbar {
+    position: absolute;
+    left: 25%;
+    bottom: 25%;
+}
+
+#header-icon_user-icon {
+    border-radius: 280px;
+    background-color: white;
+    width: 4%;
+    position: absolute;
+    right: 3%;
+    bottom: 25%;
 }
