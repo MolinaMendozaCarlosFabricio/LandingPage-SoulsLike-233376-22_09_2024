@@ -19,10 +19,25 @@
     padding-right: 2%;
 }
 
+.gamesPage-body-contentInformation-contentSubtitle {
+    width: 100%;
+}
+
 .gamesPage-body-contentInformation-subtitle {
     border-bottom: 2px solid gold;
     font-size: 38px;
     margin-top: 3%;
+    display: inline-block;
+}
+
+.subtitle-right {
+    position: relative;
+    left: 75%;
+}
+
+.subtitle-left {
+    position: relative;
+    right: 61.7%;
 }
 
 .gamesPage-body-contentInformation-img {
