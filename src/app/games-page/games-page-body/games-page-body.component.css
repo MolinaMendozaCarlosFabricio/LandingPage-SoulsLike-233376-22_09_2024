@@ -1,0 +1,54 @@
+.gamesPage-body {
+    width: 100%;
+    color: white;
+    position: relative;
+    background-image: url("../../../../public/assets/img/ED_dlc.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Mate", system-ui;
+}
+
+.gamesPage-body-contentInformation {
+    position: relative;
+    width: 75%;
+    left: 10.5%;
+    background-color: rgba(68, 68, 68, 0.85);
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+}
+
+.gamesPage-body-contentInformation-contentSubtitle {
+    width: 100%;
+}
+
+.gamesPage-body-contentInformation-subtitle {
+    border-bottom: 2px solid gold;
+    font-size: 38px;
+    margin-top: 3%;
+    display: inline-block;
+}
+
+.subtitle-right {
+    position: relative;
+    left: 75%;
+}
+
+.subtitle-left {
+    position: relative;
+    right: 61.7%;
+}
+
+.gamesPage-body-contentInformation-img {
+    margin: 10px;
+    width: 60%;
+}
+
+.img-left {
+    float: left;
+}
+
+.img-right {
+    float: right;
+}
