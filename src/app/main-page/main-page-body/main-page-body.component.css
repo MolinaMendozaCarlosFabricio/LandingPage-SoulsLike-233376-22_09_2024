@@ -1,0 +1,112 @@
+.mainPage-body {
+    width: 100%;
+    color: white;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 17%;
+    font-family: "Mate", system-ui;
+}
+
+.mainPage-body-backgroundImage{
+    width: 100%;
+    height: 20%;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    position: absolute;
+    z-index: 0;
+}
+
+.bkg-img1 {
+    background-image: url("./../../../../public/assets/img/ds3Portada.jpg");
+    top: 0;
+}
+
+.bkg-img2 {
+    background-image: url("./../../../../public/assets/img/ERPortada.jpg");
+    top: 20%;
+}
+
+.bkg-img3 {
+    background-image: url("./../../../../public/assets/img/DemonsSoulsPS5.jpg");
+    top: 40%;
+}
+
+.bkg-img4 {
+    background-image: url("../../../../public/assets/img/irityllDs3.jpg");
+    top: 60%;
+}
+
+.bkg-img5 {
+    background-image: url("./../../../../public/assets/img/endDs3.jpg");
+    top: 80%;
+}
+
+#mainPage-body-wellcomeMessage{
+    position: relative;
+    width: 60%;
+    left: 20%;
+    text-align: center;
+    background-color: rgba(68, 68, 68, 0.7);
+    margin-bottom: 17%;
+    font-size: 40px;
+}
+
+.mainPage-body-contentInformation {
+    position: relative;
+    width: 75%;
+    left: 10.5%;
+    background-color: rgba(68, 68, 68, 0.85);
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+}
+
+.mainPage-body-contentInformation-contentSubtitle {
+    width: 100%;
+}
+
+.mainPage-body-contentInformation-subtitle {
+    border-bottom: 2px solid gold;
+    display: inline-block;
+    font-size: 38px;
+    margin-top: 3%;
+}
+
+.subtitle-right {
+    position: relative;
+    left: 60%;
+}
+
+#mainPage-body-contentInformation-img1 {
+    width: 30%;
+    float: right;
+    margin: 5px;
+}
+
+#mainPage-body-contentInformation-img2 {
+    width: 40%;
+    margin: 5px;
+    float: left;
+}
+
+#mainPage-body-contentInformation-img3 {
+    width: 30%;
+    margin: 5px;
+    float: right;
+}
+
+#mainPage-body-contentInformation-img4 {
+    width: 30%;
+    margin: 5px;
+    float: left;
+}
+
+#mainPage-body-contentInformation-img5 {
+    width: 50%;
+    margin: 5px;
+    float: right;
+}
