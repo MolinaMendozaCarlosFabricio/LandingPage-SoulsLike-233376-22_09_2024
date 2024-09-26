@@ -99,8 +99,17 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "repo": "https://github.com/MolinaMendozaCarlosFabricio/LandingPage-SoulsLike-233376-22_09_2024.git"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "ef85136a-3fbc-4bcc-a2ea-77d980d3e09a"
   }
 }
